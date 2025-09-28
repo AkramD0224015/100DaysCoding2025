@@ -3,17 +3,16 @@ public class day21 {
         int a= 15;
         int b = 10;
 
-        System.out.println("sebelum di tukar," +
-                "\n a bernilai : " +a+
+        System.out.println("sebelum ditukar"+
+               "\n a bernilai : "+a+
                 "\n b bernilai : "+b);
+        a = a+b;
+        b = a-b;
+        a = a-b;
 
-        int nilai_awal = a;
-        a= b;
-        b= nilai_awal;
-
-        System.out.println("setelah di tukar"+
-                "\n a menjadi b : "+a+
-                "\n b menjadi a : "+b);
+        System.out.println("setelah di tukar," +
+                "\n a bernilai : "+a+
+                "\n b bernilai : "+b );
 
     }
 }
