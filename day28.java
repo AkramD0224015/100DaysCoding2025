@@ -1,6 +1,6 @@
 package akram;
 
-public class day29 {
+public class day28 {
     public static void main(String[] args) {
         int a= 10;
         int b= 10;
