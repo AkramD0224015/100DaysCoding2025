@@ -1,11 +1,11 @@
 package akram;
 
-public class day28 {
+public class day29 {
     public static void main(String[] args) {
-        int a = 10;
-        int b = 10;
+        int a= 10;
+        int b= 10;
 
-        System.out.println(a==b);//true
-        System.out.println(a!=b);//false
+        System.out.println("a==b :"+(a==b));
+        System.out.println("a!=b :"+(a!=b));
     }
 }
