@@ -2,15 +2,14 @@ package akram;
 import java.util.Scanner;
 public class day41 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
+        Scanner akr = new Scanner(System.in);
         System.out.println("=== Menghitung Gaji Bersi ===");
         System.out.print("Masukkan Gaji Pokok: ");
-        double gajiPokok = input.nextDouble();
+        double gajiPokok = akr.nextDouble();
         System.out.print("Masukkan tunjangan Makan: ");
-        double tunjanganmakan = input.nextDouble();
+        double tunjanganmakan = akr.nextDouble();
         System.out.print("Masukkan Potongan Koperasi: ");
-        double potonganKoperasi = input.nextDouble();
+        double potonganKoperasi = akr.nextDouble();
 
         double gajiBersih = gajiPokok + tunjanganmakan - potonganKoperasi;
 
