@@ -1,7 +1,7 @@
 package akram;
 
 import java.util.Scanner;
-public class day44 {
+public class day45 {
     public static void main(String[] args) {
         Scanner akr = new Scanner(System.in);
         System.out.println("=== KANTIN DUA PUTRI ===");
